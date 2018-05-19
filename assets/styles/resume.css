@@ -1,0 +1,172 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.Resume {
+    font: 16px Helvetica, Sans-Serif;
+    line-height: 24px;
+    background: url(../images/paper-texture.jpg);
+}
+
+.clear-fix {
+    clear: both;
+}
+
+main {
+    width: 50%;
+    margin: 40px auto 0;
+}
+
+.pic {
+    float: right;
+    margin-top: -30px;
+    height: 200px;
+    border-radius: 25%;
+    -webkit-box-shadow: 0px 7px 0px -2px rgba(97,97,97,1);
+    -moz-box-shadow: 0px 7px 0px -2px rgba(97,97,97,1);
+    box-shadow: 0px 7px 0px -2px rgba(97,97,97,1);
+}
+
+h1 {
+    margin-bottom: 16px;
+    padding-bottom: 16px;
+    font-size: 42px;
+    font-weight: 700;
+    letter-spacing: -2px;
+    border-bottom: 1px solid #999;
+}
+
+h2 {
+    display: inline-block;
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom:6px;
+    position: relative;
+}
+
+.title {
+    float: right;
+    font-style: italic;
+    font-family: Georgia, Serif;
+    font-size: 16px;
+    color: #999;
+    font-weight: normal;
+}
+
+ul.work-list {
+    margin: 0;
+    list-style-type: none;
+}
+
+.work-list li {
+    margin-bottom: 10px;
+}
+
+p {
+    margin-bottom:16px;
+}
+
+ul {
+    margin: 0 0 32px 17px;
+}
+
+.objective {
+    width: 60%;
+    float: left;
+}
+
+.objective p {
+    font-family: Georgia, Serif;
+    font-style: italic;
+    color: #666;
+}
+
+header {
+    font-style: italic;
+    font-weight: 700;
+    font-size: 18px;
+    text-align: right;
+    width: 23%;
+    float: left;
+}
+
+.content {
+    width: 70%;
+    float: right;
+    padding-left: 26px;
+    border-left: 1px solid #999;
+}
+
+div.clear-fix {
+    float: none;
+    margin: 0;
+    height: 15px;
+}
+
+footer {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+*:last-child {
+    margin-bottom: 0 !important;
+}
+
+/* Media Queries */
+
+@media screen and (min-width: 1120px) and (max-width: 1250px) {
+
+    h2 {
+        display: block;
+    }
+
+   .title {
+        float: none;
+   }
+
+}
+
+@media screen and (max-width: 1120px) {
+    
+    header {
+        text-align: left;
+    }
+
+    .content {
+        width: 100%;
+        float: left;
+        border-left: none;
+        border-top: 1px solid #999;
+        padding: 15px 0 0;
+    }
+
+    .objective {
+        width: 100%;
+    }
+
+    .pic {
+        display: none;
+    }
+
+}
+
+@media screen and (max-width: 880px) {
+
+    h2 {
+        display: block;
+    }
+
+   .title {
+        float: none;
+   }
+
+}
+
+@media screen and (max-width: 770px) {
+
+    main {
+        width: 80% !important;
+    }
+
+}
